@@ -38,7 +38,7 @@ IAppState > {
   }
   public componentDidMount() {
     const me = this;
-    fetch('/words.json').then((response) => {
+    fetch('./words.json').then((response) => {
       return response.json();
     }).then((words : string[]) => {
       me.setState({words})
