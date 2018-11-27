@@ -6,7 +6,7 @@ const input = process.argv[2];
 const array = input.split(" ");
 list = list.concat(array);
 
-console.log(list);
+// console.log(list);
 
 fs.writeJsonSync("./public/words.json", list, {
     space: 4

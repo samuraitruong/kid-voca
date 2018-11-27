@@ -1,7 +1,8 @@
 {
   "name": "kid-voca",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://samuraitruong.github.io/kid-voca",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
